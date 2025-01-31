@@ -13,12 +13,12 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About companyName=" At Global Apex, "
-  // establishedYear={1973}
+  // establishedYear={19730}
   location=" "
   description="Ever since its inception, Global Apex has played a vital role in the Indian Market for multiple types of Granite.
   Our main mission is that we are dedicated to sourcing, crafting, and delivering world-class granite solutions that enhance architectural excellence and pure quality."
   // specialization="At Global Apex, we turn natural stone into timeless masterpieces, ensuring durability, elegance, and excellence in every slab."
-  networkSize={12}/>
+  />
       <Products />
       <Projects />
       {/* <Promotions /> */}

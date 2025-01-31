@@ -10,14 +10,14 @@ interface AboutProps {
   companyName: string;
   location: string;
   description: string;
-  networkSize: number;
+  // networkSize: number;
 }
 
 const About: React.FC<AboutProps> = ({
   companyName,
-  location,
+  // location,
   description,
-  networkSize,
+  // networkSize,
 }) => {
   return (
     <section className="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto px-4 py-16 gap-8">
@@ -36,7 +36,7 @@ const About: React.FC<AboutProps> = ({
 
         {/* Animated Paragraphs */}
         {[
-          "We are pioneers in the manufacturing, trading, and global distribution of premium granite from India.",
+          " At Global Apex, We are pioneers in the manufacturing, trading, and global distribution of premium granite from India.",
           description,
           "Our commitment to quality craftsmanship, ethical sourcing, and global excellence sets us apart. With cutting-edge technology and a vast international network, we ensure seamless delivery, customized solutions, and unmatched reliability for your granite needs.",
         ].map((text, index) => (
