@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 export default function Hero() {
   return (
-    <div className="relative h-screen flex items-center justify-center">
+    <div id="hero" className="relative h-screen flex items-center justify-center">
       {/* Background Image */}
       <img
         src="/images/hero.jpg" // Update the path if necessary

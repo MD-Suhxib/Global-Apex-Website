@@ -20,19 +20,19 @@ export default function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex md:items-center md:space-x-8">
-            <Link href="/" className="text-black hover:text-gray-900">
+            <Link href="#hero" className="text-black hover:text-gray-900">
               HOME
             </Link>
-            <Link href="/" className="text-black hover:text-gray-800">
+            <Link href="#about" className="text-black hover:text-gray-800">
               ABOUT
             </Link>
-            <Link href="/products" className="text-black hover:text-gray-800">
+            <Link href="#products" className="text-black hover:text-gray-800">
               PRODUCTS
             </Link>
-            <Link href="/projects" className="text-black hover:text-gray-800">
+            <Link href="#work" className="text-black hover:text-gray-800">
               WORK
             </Link>
-            <Link href="/promotions" className="text-black hover:text-gray-800">
+            <Link href="/#contact" className="text-black hover:text-gray-800">
               CONTACT US
             </Link>
           </div>

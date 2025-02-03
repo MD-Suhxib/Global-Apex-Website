@@ -20,7 +20,7 @@ const About: React.FC<AboutProps> = ({
   // networkSize,
 }) => {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto px-4 py-16 gap-8">
+    <section id="about" className="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto px-4 py-16 gap-8">
       {/* Text Content */}
       <div className="md:w-1/2 space-y-6">
         {/* Animated Heading */}

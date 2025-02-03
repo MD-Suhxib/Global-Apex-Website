@@ -19,7 +19,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section className="relative pt-35 pb-24 bg-gray-50 bg-cover bg-center bg-no-repeat">
+    <section id="work" className="relative pt-35 pb-24 bg-gray-50 bg-cover bg-center bg-no-repeat">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header Section */}
         <motion.div
@@ -34,7 +34,7 @@ export default function Projects() {
         </motion.div>
 
         {/* Project Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 lg:gap-12">
           {projects.map((project, index) => (
             <motion.div
               key={project.id}
@@ -42,7 +42,7 @@ export default function Projects() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: index * 0.2 }}
               viewport={{ once: true }}
-              className="relative bg-white bg-opacity-80 rounded-lg overflow-hidden shadow-lg w-full max-w-sm group"
+              className="relative bg-white bg-opacity-80 rounded-lg overflow-hidden shadow-lg w-full max-w-full group"
             >
               {/* Image Section */}
               <div className="relative w-full h-56 md:h-48 lg:h-64">
@@ -56,7 +56,7 @@ export default function Projects() {
               </div>
 
               {/* Text Section */}
-              <div className="p-4 text-center">
+              <div className="p-6 text-center">
                 <h3 className="text-lg font-semibold text-gray-900">{project.title}</h3>
                 <p className="mt-2 text-gray-600 text-sm">{project.description}</p>
               </div>
