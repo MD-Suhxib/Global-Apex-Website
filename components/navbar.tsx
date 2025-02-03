@@ -32,7 +32,7 @@ export default function Navbar() {
             <Link href="#work" className="text-black hover:text-gray-800">
               WORK
             </Link>
-            <Link href="/#contact" className="text-black hover:text-gray-800">
+            <Link href="#contact" className="text-black hover:text-gray-800">
               CONTACT US
             </Link>
           </div>
@@ -54,35 +54,35 @@ export default function Navbar() {
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white">
             <Link
-              href="/"
+              href="#hero"
               className="block px-3 py-2 text-black hover:text-gray-800"
               onClick={() => setIsOpen(false)}
             >
               HOME
             </Link>
             <Link
-              href="/products"
+              href="#about"
               className="block px-3 py-2 text-black hover:text-gray-800"
               onClick={() => setIsOpen(false)}
             >
               ABOUT
             </Link>
             <Link
-              href="/products"
+              href="#products"
               className="block px-3 py-2 text-black hover:text-gray-800"
               onClick={() => setIsOpen(false)}
             >
               PRODUCTS
             </Link>
             <Link
-              href="/projects"
+              href="#work"
               className="block px-3 py-2 text-black hover:text-gray-800"
               onClick={() => setIsOpen(false)}
             >
-              PROJECTS
+              WORK
             </Link>
             <Link
-              href="/promotions"
+              href="#contact"
               className="block px-3 py-2 text-black hover:text-gray-800"
               onClick={() => setIsOpen(false)}
             >
@@ -93,4 +93,4 @@ export default function Navbar() {
       )}
     </nav>
   );
-} 
+}
