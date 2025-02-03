@@ -11,8 +11,21 @@ const granites = [
   { id : 5, name : "Steel Grey", image:"/images/Steel G.jpg"},
   { id : 6, name : "Tan Brown", image:"/images/tan-brown.jpg"},
   { id : 7, name : "Absolute Black", image:"/images/Absolute-black.jpg"},
-  { id : 9, name : "Sira Kashmir White", image:"/images/kashmir white.jpg"},
-  { id : 10, name : "Sira Grey", image:"/images/Sira-Grey.jpg"},
+  { id : 9, name : "Kashmir White", image:"/images/kashmir white.jpg"},
+  { id : 10, name : "Black Pearl", image:"/images/black-pearl.jpg"},
+  { id : 11, name : "Hassan Green", image:"/images/Hassan Green.jpg"},
+  { id : 12, name : "Ilkal Red", image:"/images/ilkal red.jpg"},
+  { id : 13, name : "Lakha Red", image:"/images/Lakha-Red.jpg"},
+  { id : 14, name : "Cherry Brown", image:"/images/Cherry brown.jpg"},
+  { id : 15, name : "Fish Black", image:"/images/FISH B.jpg"},
+  { id : 16, name : "Alaska White", image:"/images/Alaska-white.jpg"},
+  { id : 17, name : "Himalayan Blue", image:"/images/himalayan b.png"},
+  { id : 18, name : "Paradise bash", image:"/images/paradise bash.jpg"},
+  { id : 19, name : "Red Multy", image:"/images/red multy.jpg"},
+  { id : 21, name : "Lavender Blue", image:"/images/lavender.jpg"},
+  { id : 22, name : "Imperial Gold ", image:"/images/imperial g.jpg"},
+  { id : 23, name : "Alashka Gold", image:"/images/Alashka Gold.jpg"},
+
   // Add more granite objects here
 ];
 
