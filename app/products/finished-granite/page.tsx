@@ -6,7 +6,7 @@ import Image from "next/image";
 const granites = [
   { id: 1, name: "Black Galaxy", image: "/images/Black-Galaxy.jpg" },
   { id: 2, name: "Viscon White", image: "/images/Viscon White.jpg" },
-  { id: 3, name: "Black Forest", image: "/images/Black F.jpg" },
+  { id: 3, name: "Black Forest", image: "/images/black forest.jpg" },
   { id : 4, name : "Sira Grey", image:"/images/Sira-Grey.webp"},
   { id : 5, name : "Steel Grey", image:"/images/Steel G.jpg"},
   { id : 6, name : "Tan Brown", image:"/images/tan-brown.jpg"},
@@ -25,6 +25,12 @@ const granites = [
   { id : 21, name : "Lavender Blue", image:"/images/lavender.jpg"},
   { id : 22, name : "Imperial Gold ", image:"/images/imperial g.jpg"},
   { id : 23, name : "Alashka Gold", image:"/images/Alashka Gold.jpg"},
+  { id : 24, name : "Asian Red", image:"/images/Asian Red.jpeg"},
+  { id : 25, name : "Adhonic Brown", image:"/images/AD brown.jpg"},
+  { id : 26, name : "Moon White", image:"/images/Moon White.jpg"},
+  { id : 27, name : "Makrana Green Marble", image:"/images/green marble.jpg"},
+  { id : 28, name : "Makrana White Marble", image:"/images/white marble.jpg"},
+  { id : 29, name : "Katni Marble", image:"/images/katni.jpg"},
 
   // Add more granite objects here
 ];
