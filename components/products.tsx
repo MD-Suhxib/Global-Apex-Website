@@ -22,9 +22,9 @@ const products = [
   {
     id: 3,
     name: "Rough Granite Material",
-    description: "Premium quality natural stone",
+    description: "Premium quality Rough Stones",
     image: "/images/Rough.jpg",
-    link: "/products/finished-granite",
+    link: "/products/rough-granite",
   },
 ];
 
