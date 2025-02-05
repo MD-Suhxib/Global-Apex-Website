@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 const projects = [
   {
@@ -8,12 +9,14 @@ const projects = [
     title: "Quarry Work",
     description: "Complete sourcing from earth",
     image: "/images/Red-Granite.jpg",
+    videoUrl: "https://youtu.be/MuMnWIG-8Ic?si=lT60lExVL8vMpQNY",
   },
   {
     id: 2,
     title: "Commercial Factory Work",
     description: "Granite cutting and detailed finishing",
     image: "/images/background.webp",
+    videoUrl: "https://example.com/factory-video",
   },
 ];
 
@@ -63,7 +66,9 @@ export default function Projects() {
 
               {/* Hover Effect */}
               <div className="absolute inset-0 flex items-center justify-center opacity-0 bg-black bg-opacity-50 transition-opacity duration-300 group-hover:opacity-100">
-                <button className="px-4 py-2 text-white bg-blue-600 rounded-lg">Watch Video</button>
+                <Link href={project.videoUrl} target="_blank" rel="noopener noreferrer">
+                  <button className="px-4 py-2 text-white bg-blue-600 rounded-lg">Watch Video</button>
+                </Link>
               </div>
             </motion.div>
           ))}

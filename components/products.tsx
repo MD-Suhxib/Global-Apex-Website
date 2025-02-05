@@ -16,7 +16,7 @@ const products = [
     id: 2,
     name: "Raw Granite Material",
     description: "From Earth to its purest form",
-    image: "/images/grey-blocks.jpg",
+    image: "/images/tanb.png",
     link: "/products/raw-granite",
   },
   {
