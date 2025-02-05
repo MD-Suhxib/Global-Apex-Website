@@ -15,7 +15,7 @@ const granites = [
   { id: 9, name: " Cobbal Stone", image: "/images/Cobbal.png" },
   {id: 9, name: " Cobbal Stone Garden area", image: "/images/cobbal-G.png" },
   {id: 10, name: " Cobbal Stone Driveway area", image: "/images/cobbal-D.png" },
-  {id: 10, name: " Cobbal Stone Driveway area", image: "/images/cobbal-D.png" },
+  // {id: 10, name: " Garden water fountain", image: "/images/waterf.png" },
 
   // Add more granite objects here
 ];
