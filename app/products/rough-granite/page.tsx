@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const granites = [
   { id: 1, name: "Leather Finish", image: "/images/leatherf.jpg" },
-  { id: 2, name: "Lapotra Finish", image: "/images/lapotra.png" },
+  { id: 2, name: "Lapotra Finish", image: "/images/lapotra2.png" },
   { id: 3, name: "Grey Honed", image: "/images/grey honed.png" },
   { id: 4, name: "Black Pearl Brushed", image: "/images/Black-Pearl-Brushed.jpg" },
   { id: 5, name: "Honed Finish", image: "/images/honed.png" },
