@@ -5,19 +5,20 @@ import Link from "next/link";
 import Image from "next/image";
 
 const products = [
+  
   {
     id: 1,
-    name: "Finished Granite Material",
-    description: "Premium Quality, Polished to Perfection",
-    image: "/images/showroom.jpg",
-    link: "/products/finished-granite",
-  },
-  {
-    id: 2,
     name: "Raw Granite Material",
     description: "From Earth to its purest form",
     image: "/images/tanb.png",
     link: "/products/raw-granite",
+  },
+  {
+    id: 2,
+    name: "Finished Granite Material",
+    description: "Premium Quality, Polished to Perfection",
+    image: "/images/showroom.jpg",
+    link: "/products/finished-granite",
   },
   {
     id: 3,
