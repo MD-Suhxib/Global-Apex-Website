@@ -46,6 +46,8 @@ export default function Footer() {
         </div>
         <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
           <p>&copy; {new Date().getFullYear()} Global Apex. All rights reserved.</p>
+          <p>Made by Mohammed Suhaib S</p>
+          <p>email : mohammedsuhaib.0294@gmail.com</p>
         </div>
       </div>
     </footer>
