@@ -16,7 +16,7 @@ const projects = [
     title: "Commercial Factory Work",
     description: "Granite cutting and detailed finishing",
     image: "/images/background.webp",
-    videoUrl: "https://example.com/factory-video",
+    videoUrl: "",
   },
 ];
 

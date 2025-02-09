@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Mail, MapPin } from "lucide-react"
+import { Mail, MapPin, Phone } from "lucide-react"
 
 export default function Contact() {
   return (
@@ -80,18 +80,19 @@ export default function Contact() {
                 <p className="mt-1 text-gray-600">Bangalore, Karnataka, India</p>
               </div>
             </div>
-            {/* <div className="flex items-start space-x-4">
+            <div className="flex items-start space-x-4">
               <Phone className="w-6 h-6 text-blue-600 flex-shrink-0" />
               <div>
                 <h3 className="text-lg font-medium text-gray-900">Phone</h3>
                 <p className="mt-1 text-gray-600">+91 9880050816 / +91 8618271718</p>
               </div>
-            </div> */}
+            </div>
             <div className="flex items-start space-x-4">
               <Mail className="w-6 h-6 text-blue-600 flex-shrink-0" />
               <div>
                 <h3 className="text-lg font-medium text-gray-900">Email</h3>
                 <p className="mt-1 text-gray-600">info@globalapexs.com</p>
+                <p className="mt-1 text-gray-600">globalapex.exports@gmail.com</p>
               </div>
             </div>
           </motion.div>
@@ -100,4 +101,3 @@ export default function Contact() {
     </section>
   )
 }
-

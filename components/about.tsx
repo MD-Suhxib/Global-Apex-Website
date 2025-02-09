@@ -36,7 +36,7 @@ const About: React.FC<AboutProps> = ({
 
         {/* Animated Paragraphs */}
         {[
-          " At Global Apex, We are pioneers in the manufacturing, trading, and global distribution of premium granite from India.",
+          " At Global Apex, We are pioneers in the procuring, manufacturing, trading, and global distribution of premium granite from India since from 2007.",
           description,
           "Our commitment to quality craftsmanship, ethical sourcing, and global excellence sets us apart. With cutting-edge technology and a vast international network, we ensure seamless delivery, customized solutions, and unmatched reliability for your granite needs.",
         ].map((text, index) => (
@@ -46,7 +46,7 @@ const About: React.FC<AboutProps> = ({
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 * index, duration: 0.8, ease: "easeOut" }}
-            viewport={{ once: true }}
+            viewport={{ once: true}}
           >
             {text}
           </motion.p>
