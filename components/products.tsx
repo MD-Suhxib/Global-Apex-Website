@@ -55,7 +55,7 @@ export default function Products() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: index * 0.2 }}
                 viewport={{ once: true }}
-                className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition"
+                className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition relative"
               >
                 {/* Image */}
                 <div className="relative h-64">
@@ -71,6 +71,13 @@ export default function Products() {
                 <div className="p-6">
                   <h3 className="text-xl font-semibold text-gray-900">{product.name}</h3>
                   <p className="mt-2 text-gray-600">{product.description}</p>
+                </div>
+
+                {/* Click Here Button */}
+                <div className="absolute inset-0 flex items-end justify-center opacity-0 hover:opacity-100 transition-opacity">
+                  <button className="mb-4 px-4 py-2 bg-gray-900 text-white rounded-lg shadow-lg hover:bg-gray-700">
+                    Click Here
+                  </button>
                 </div>
               </motion.div>
             </Link>
