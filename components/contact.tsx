@@ -84,7 +84,7 @@ export default function Contact() {
               <Phone className="w-6 h-6 text-blue-600 flex-shrink-0" />
               <div>
                 <h3 className="text-lg font-medium text-gray-900">Phone</h3>
-                <p className="mt-1 text-gray-600">+91 9880050816 / +91 8618271718</p>
+                <p className="mt-1 text-gray-600">+91 8123409596 / +91 8618271718</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
